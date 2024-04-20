@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Sohit Kushwaha</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Make container relative for absolute positioning */
+        }
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        h2, h3 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #666;
+            margin-top: 0;
+        }
+        .card {
+            background-color: #f2f2f2;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links p {
+            margin-bottom: 5px;
+        }
+        .links a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .links a i {
+            margin-right: 5px;
+        }
+        .resume-section {
+            margin-top: 20px;
+        }
+        .resume-section h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .resume-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .resume-section li {
+            margin-bottom: 15px;
+            font-size: 16px;
+            position: relative;
+            padding-left: 20px;
+        }
+        .resume-section li:before {
+            content: "•";
+            color: #007bff;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        .resume-section li strong {
+            font-weight: bold;
+        }
+        .print-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .print-button .download-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .print-button .download-button:hover {
+            background-color: #0056b3;
+        }
+        .project-link {
+            margin-top: 10px;
+        }
+        .project-link a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .project-link a.github-button {
+            background-color: #007bff;
+        }
+        .project-link a.github-button:hover {
+            background-color: #0056b3;
+        }
+        .project-link a.live-project-button {
+            background-color: #007bff;
+        }
+        .project-link a.live-project-button:hover {
+            background-color: #0056b3;
+        }
+        .education-table {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .education-table th, .education-table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        .tools-technologies {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="print-button">
+            <button class="download-button" onclick="window.print()">Download as PDF</button>
+        </div>
+        <h1>Sohit Kushwaha</h1>
+        <div class="links">
+            <p>Email: sohitku404@gmail.com</p>
+            <p>Mobile No.: +91 - 8824432006</p>
+            <a href="https://www.linkedin.com/in/itsmesohit/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/itsmesohit/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://leetcode.com/itsmesohit/" target="_blank"><i class="fab fa-leetcode"></i> LeetCode</a>
+        </div>
+        
+        <!-- Resume Section -->
+        <div class="resume-section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Geekster (Quantumbit Technologies Pvt Ltd) - SDE & Instructor (Feb 2023 - Present)</strong>
+                    <ul>
+                        <li>Excelled in dual roles as SDE and Instructor at Geekster, seamlessly merging education and software development expertise.</li>
+                        <li>Specialized in <strong>Java</strong> and <strong>DSA</strong> instruction, crafting engaging learning experiences and offering comprehensive student support.</li>
+                        <li>Contributed to refining the Geekster platform by curating study materials, coding exercises, and actively participating in software solution design aligned with business objectives.</li>
+                    </ul>
+                </li>
+                <li><strong>Pepcoding Edtech Pvt Ltd (Acquired by Scalar) - Product Engineer Intern (Nov 2021 - May 2022)</strong>
+                    <ul>
+                        <li>Collaborated closely with the Machine Learning and Big Data Engineering team, engaging in the development of innovative projects.</li>
+                        <li>Contributed to solving real-world challenges, enriching experience in machine learning and big data domains.</li>
+                        <li>Active involvement in project development underscored dedication to applying emerging technologies to practical solutions.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="resume-section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>E-Com Backend:</strong>
+                    <div class="project-link">
+                        <a href="https://github.com/itsmesohit/ecommerce-backend" target="_blank" class="github-button">GitHub</a>
+                        
+                    </div>
+                    <ul>
+                        <li>Developed a robust e-commerce backend using <strong>JavaScript</strong>, <strong>Node.js</strong>, <strong>Express</strong>, <strong>Mongoose</strong>, and <strong>MongoDB</strong>.</li>
+                        <li>Implemented advanced features including user authentication with <strong>JWT token</strong>, password encryption using <strong>bcrypt.js</strong>, and email notifications via <strong>Nodemailer</strong>.</li>
+                        <li>Integrated payment gateways such as <strong>Razorpay</strong> and <strong>Stripe</strong> for secure and efficient transactions, while leveraging <strong>Cloudinary</strong> for optimized image storage and management.</li>
+                    </ul>
+                </li>
+                <li><strong>Virtual OS (Desktop App):</strong>
+                    <div class="project-link">
+                        <a href="https://github.com/itsmesohit/virtual-os" target="_blank" class="github-button">GitHub</a>
+                        <a href="https://drive.google.com/file/d/1V1Zf6EvECIFSuundpQKdQHUk6qF90BRs/view" target="_blank" class="live-project-button">Demo Video</a>
+                    </div>
+                    <ul>
+                        <li>Developed a Virtual Operating System using <strong>Go</strong> and <strong>Fyne</strong> framework, incorporating 10+ integrated applications.</li>
+                        <li>Led design and implementation efforts for key features including file management and user interface design.</li>
+                        <li>Demonstrated expertise in software development and user-centric design principles.</li>
+                    </ul>
+                </li>
+                <li><strong>Events Calendar:</strong>
+                    <div class="project-link">
+                        <a href="https://github.com/itsmesohit/calender" target="_blank" class="github-button">GitHub</a>
+                        <a href="https://itsmesohit.github.io/calender/" target="_blank" class="live-project-button">Live Project</a>
+                    </div>
+                    <ul>
+                        <li>Developed an Events Calendar application using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</li>
+                        <li>Designed and implemented features for event creation, editing, and deletion.</li>
+                        <li>Demonstrated proficiency in software development by delivering a user-friendly Events Calendar.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="resume-section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Computer Language:</strong> <strong>JavaScript</strong>, <strong>Java</strong></li>
+                <li><strong>Frameworks / Libraries:</strong> <strong>Node.Js</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Redis</strong>, <strong>GraphQL</strong>, <strong>PostgreSQL</strong>, <strong>WebSocket</strong></li>
+                <li><strong>Additional Courses:</strong> <strong>Data Structure and Algorithms</strong>, <strong>OOPs</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Mongoose</strong></li>
+                <li class="tools-technologies"><strong>Tools & Technologies:</strong> Git, Postman, AWS EC-2, Docker</li>
+            </ul>
+        </div>
+
+        <div class="resume-section">
+            <h2>Education</h2>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Degree/Examination</th>
+                        <th>Institution/Board</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2019 - 2023</td>
+                        <td>BTECH (CSE)</td>
+                        <td>IILM University Gurugram</td>
+                        <td>8.9 CGPA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="resume-section">
+            <h2>Achievements and Co-Curricular Activities</h2>
+            <ul>
+                <li>Winner of the Pepcoding Hackathon.</li>
+                <li>Achieved a global ranking of 4888th in Google Kickstart Round C 2021.</li>
+                <li>Attained a 3-Star Rating on CodeChef with a highest rating of 1640 and solved over 350+ problems on LeetCode.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
